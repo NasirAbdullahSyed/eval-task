@@ -1,0 +1,30 @@
+#root {
+  top: 0;
+  left: 0;
+  width: 50%;
+  float: right;
+  height: 100%;
+}
+
+.container {
+  /* margin-top: 70px; */
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  overflow: hidden;
+}
+.game-edit {
+  width: 50%;
+  height: 100%;
+}
+header {
+  z-index: 10;
+  color: #fff;
+  background-color: #000;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem ;
+}
+
